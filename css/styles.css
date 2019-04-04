@@ -207,6 +207,21 @@ nav h1 a {
 .inside header {
   width: 100%;
 }
+
+.inside nav h1 a {
+  color: #fff;
+	font-size: calc(0.45em + 4vmin);
+	font-family: 'Indie Flower', cursive;
+  font-weight: 200;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+
+.inside ul li a {
+	color: #E06896;
+	font-family: Arial,sans-serif;
+}
+
 .inside #map-container {
   height: 270px;
 	width: 100%;
@@ -220,7 +235,7 @@ nav h1 a {
 .inside #footer {
   width: 100%;
 }
-#resraurant-container {
+#restaurant-container {
   position: relative;
   width: 100%;
 }
