@@ -90,7 +90,7 @@ nav h1 a {
 
 /* Add a color to all links inside the list */
 #breadcrumb li a {
-    color: red;
+    color: #E06896;
     text-decoration: none;
 }
 
@@ -205,39 +205,23 @@ nav h1 a {
 }
 
 .inside header {
-  width: 100%;
-}
-
-.inside nav h1 a {
-  color: #fff;
-	font-size: calc(0.45em + 4vmin);
-	font-family: 'Indie Flower', cursive;
-  font-weight: 200;
-  letter-spacing: 10px;
-  text-transform: uppercase;
-}
-
-.inside ul li a {
-	color: #E06896;
-	font-family: Arial,sans-serif;
+	width: 100%;
 }
 
 .inside #map-container {
-  height: 270px;
+	height: 270px;
+	position: relative;
 	width: 100%;
-  position: relative;
 }
+
 .inside #map {
   background-color: #ccc;
   height: 100%;
   width: 100%;
 }
-.inside #footer {
-  width: 100%;
-}
+
 #restaurant-container {
   position: relative;
-  width: 100%;
 }
 #restaurant-name {
   color: #C2185B;
@@ -321,6 +305,10 @@ nav h1 a {
   color: #666;
 }
 
+.inside #footer {
+  width: 100%;
+}
+
 
 /* ====================== Media Queries ====================== */
 
@@ -351,20 +339,21 @@ nav h1 a {
     height: 41px;
   }
 
-  .inside header {
+	.inside header {
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
   }
   .inside #map-container {
-    background: #C2185A none repeat scroll 0 0;
+    background: blue none repeat scroll 0 0;
     height: 88%;
     position: fixed;
     right: 0;
     top: 80px;
     width: 50%;
   }
+
   #breadcrumb {
     width: calc(50% - 80px);
   }
